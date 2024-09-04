@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { TDeleteOptions } from "../../../../types/extensions/sqlMethodsWithCast";
+import { TDeleteOptions } from "../../types/sqlMethodsWithCast";
 import { selectToSql } from "./utils";
 
 /**

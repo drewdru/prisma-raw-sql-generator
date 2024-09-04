@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { TFindManyOptions } from "../../../../types/extensions/sqlMethodsWithCast";
+import { TFindManyOptions } from "../../types/sqlMethodsWithCast";
 import { selectToSql } from "./utils";
 
 /**

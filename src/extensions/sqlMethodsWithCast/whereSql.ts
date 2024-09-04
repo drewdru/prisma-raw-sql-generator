@@ -1,7 +1,7 @@
 import { Prisma } from "@prisma/client";
 import { isUUID } from "class-validator";
-import { isEmbendding, isQuaternion, isVector } from "../../../../types/vector";
-import { toSnakeCaseKeys } from "../../../../utils/caseSwitcher";
+import { isEmbendding, isQuaternion, isVector } from "../../types/vector";
+import { toSnakeCaseKeys } from "../../utils/caseSwitcher";
 
 export const whereSql = (
   where: Record<string, any>,

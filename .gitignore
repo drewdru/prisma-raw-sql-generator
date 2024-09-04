@@ -1,6 +1,7 @@
 # private
 .env
 .npmrc
+yarn.lock
 
 # compiled output
 /dist

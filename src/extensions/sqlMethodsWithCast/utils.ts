@@ -3,8 +3,8 @@ import {
   ToInsertCastType,
   ToSelectCastType,
   ToSnakeCaseKeys,
-} from "../../../../types/extensions/sqlMethodsWithCast";
-import { isEmbendding, isQuaternion, isVector } from "../../../../types/vector";
+} from "../../types/sqlMethodsWithCast";
+import { isEmbendding, isQuaternion, isVector } from "../../types/vector";
 
 export function selectToSql<T>(select?: ToSelectCastType<T> | Prisma.Sql) {
   let selectColumns: Prisma.Sql;

@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { TInsertOptions } from "../../../../types/extensions/sqlMethodsWithCast";
+import { TInsertOptions } from "../../types/sqlMethodsWithCast";
 import { getInsertValues, selectToSql } from "./utils";
 
 function calculateInsertColumns<T>(options: TInsertOptions<T>): Prisma.Sql {

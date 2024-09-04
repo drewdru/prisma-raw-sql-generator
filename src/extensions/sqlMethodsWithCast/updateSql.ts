@@ -1,6 +1,6 @@
 import { Prisma } from "@prisma/client";
-import { TUpdateOptions } from "../../../../types/extensions/sqlMethodsWithCast";
-import { getInsertValues, getUpdateValues, selectToSql } from "./utils";
+import { TUpdateOptions } from "../../types/sqlMethodsWithCast";
+import { getUpdateValues, selectToSql } from "./utils";
 
 function calculateUpdateColumns<T>(options: TUpdateOptions<T>): Prisma.Sql {
   let columns: Prisma.Sql;

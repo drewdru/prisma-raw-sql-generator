@@ -1,5 +1,5 @@
 import { Prisma } from "@prisma/client";
-import { TUpsertOptions } from "../../../../types/extensions/sqlMethodsWithCast";
+import { TUpsertOptions } from "../../types/sqlMethodsWithCast";
 import { getInsertValues, selectToSql } from "./utils";
 
 function calculateUpsertColumns<T>(options: TUpsertOptions<T>): {
