@@ -5,7 +5,7 @@ import { updateSql } from "./updateSql";
 import { deleteSql } from "./deleteSql";
 import { whereSql } from "./whereSql";
 
-export default {
+export const sqlMethodsWithCast = {
   name: "sqlMethodsWithCast",
   model: {
     $allModels: {
