@@ -1,0 +1,3 @@
+@pl-developers:registry=https://gitlab.com/api/v4/packages/npm/
+//gitlab.com/api/v4/projects/${CORE_PL_MODULES_PROJECT_ID}:_authToken=${CORE_PL_MODULES_REGISTRY_TOKEN}
+//gitlab.com/api/v4/projects/${CORE_PL_MODULES_PROJECT_ID}/packages/npm/:_authToken=${CORE_PL_MODULES_REGISTRY_TOKEN}
