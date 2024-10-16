@@ -1,4 +1,4 @@
-# core_pl_guards
+# prisma-raw-sql-generator 
 Prisma extensions
 
 ## Deploy
